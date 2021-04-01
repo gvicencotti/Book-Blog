@@ -1,0 +1,17 @@
+pt-BR:
+  activerecord:
+    models:
+      article:
+        one: Artigo
+        other: Artigos
+      comment:
+        one: Comentário
+        other: Comentários
+    attributes:
+      article:
+        title: Título
+        body: Texto
+      comment:
+        commenter: Comentarista
+        body: Texto
+      

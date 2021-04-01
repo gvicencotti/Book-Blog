@@ -1,0 +1,15 @@
+<h1><%= @article.title %></h1>
+
+<p><%= @article.body %></p>
+
+
+<ul>
+  <li><%= link_to "Editar", edit_article_path(@article) %></li>
+  <li><%= link_to "Deletar", article_path(@article),
+                  method: :delete,
+                  data: { confirm: "Tem certeza?" } %></li>
+</ul>
+
+<%= render 'partials/comments/comments' %>
+
+
